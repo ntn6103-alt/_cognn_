@@ -1,5 +1,5 @@
-#!name= Locket Gold - emmit Source
-#!desc= Module của emmit.
+#!name= Locket Gold - nngoc
+#!desc= Module của nngoc.
 
 [MITM]
 hostname = %APPEND% ://revenuecat.com, ://googleapis.com
