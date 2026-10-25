@@ -1,7 +1,7 @@
 // ============================================================
 // Locket Remote Config Rewrite & Custom Captions
 // Endpoint: firebaseremoteconfig.googleapis.com
-// Tác giả: duyvinh09
+// Tác giả: nngoc
 // ============================================================
 
 var ua = $request.headers["User-Agent"] || $request.headers["user-agent"] || "";
@@ -53,9 +53,9 @@ if (ua.includes("Locket")) {
             title: "Có Locket Gold rồi đó 😎",
             feature_set: [
                 {
-                    title: "á đùuuuu ✨",
-                    body: "trải nghiệm iiii ❤️‍🩹",
-                    imageURL: "https://cdn.upanhlaylink.com/i/BHxWil8h.png"
+                    title: "á đùuu ✨",
+                    body: "k biết dùng đc k ❤️‍🩹",
+                    imageURL:"C:\Users\ADMIN\OneDrive\Attachments\HTML\Desktop\nngoc\CHV09951.jpg"
                 }
             ],
             primary_button_title: "Up ảnh thôi nàooo !",

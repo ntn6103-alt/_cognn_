@@ -1,8 +1,0 @@
-#!name=Mở khóa Locket Gold
-#!desc=Kích hoạt các tính năng trả phí của Locket Gold (Bypass Remote Config)
-
-[Script]
-LocketGold = type=http-response,pattern=^https:\/\/firebaseremoteconfig\.googleapis\.com\/v1\/projects\/locket-ios\/namespaces\/firebase:fetch,requires-body=1,binary-body=0,script-path=https://githubusercontent.com
-
-[MITM]
-hostname = %APPEND% ://googleapis.com
