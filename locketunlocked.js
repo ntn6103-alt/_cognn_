@@ -54,8 +54,7 @@ if (ua.includes("Locket")) {
             feature_set: [
                 {
                     title: "á đùuu ✨",
-                    body: "k biết dùng đc k ❤️‍🩹",
-                    imageURL:"C:\Users\ADMIN\OneDrive\Attachments\HTML\Desktop\nngoc\CHV09951.jpg"
+                    body: "k biết dùng đc k ❤️‍🩹"
                 }
             ],
             primary_button_title: "Up ảnh thôi nàooo !",
