@@ -393,10 +393,9 @@ if (ua.includes("Locket")) {
             {
                 section: "🎨 Decorative by nngoc",
                 items: [
-                    { overlay_id: "caption:toi_nho_em", source: "remote", caption: { background: { colors: ["#FFFFFF", "#6D9EEB"] }, max_lines: 1, text: "tran duc bao", text_color: "#000000E6", type: "static_content" } },
-                    { overlay_id: "caption:cu", source: "remote", caption: { background: { colors: ["#FFD6A5", "#FFF1A8", "#FFC4D6"] }, max_lines: 1, text: "miss km vai cho", text_color: "#633B24", type: "static_content" } },
-                    { overlay_id: "caption:tuat", source: "remote", caption: { background: { colors: ["#2C1A0E", "#5D4037", "#D7A86E"] }, icon: { data: "🐀", type: "emoji" }, max_lines: 1, text: "25 12 2008", text_color: "#FFFFFFE6", type: "static_content" } },
-                    { overlay_id: "caption:snake_vibes", source: "remote", caption: { background: { colors: ["#2E7D32", "#66BB6A"] }, icon: { data: "💗", type: "emoji" }, max_lines: 1, text: "iu km vai lon", localized_text: { en: "iu km vl", vn: "iu km vl" }, text_color: "#FFFFFFE6", type: "static_content" } },
+				    { overlay_id: "caption:cu", source: "remote", caption: { background: { colors: ["#FFD6A5", "#FFF1A8", "#FFC4D6"] }, max_lines: 1, text: "á đù", text_color: "#633B24", type: "static_content" } },
+                    { overlay_id: "caption:tuat", source: "remote", caption: { background: { colors: ["#2C1A0E", "#5D4037", "#D7A86E"] }, icon: { data: "🐀", type: "emoji" }, max_lines: 1, text: "bắt chình chình bố thằng bình", text_color: "#FFFFFFE6", type: "static_content" } },
+                    { overlay_id: "caption:snake_vibes", source: "remote", caption: { background: { colors: ["#2E7D32", "#66BB6A"] }, icon: { data: "💗", type: "emoji" }, max_lines: 1, text: "phuong mai", localized_text: { en: "iu km vl", vn: "iu km vl" }, text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "caption:du_an_ma", source: "remote", caption: { background: { colors: ["#263238", "#455A64"] }, icon: { data: "👻", type: "emoji" }, max_lines: 1, text: "ngủ sớm đi em", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "caption:love_vietnam", source: "remote", alt_text: "Tôi yêu Việt Nam", caption: { background: { image: { type: "image", data: "star_sign_background", source: "local" }, colors: ["#DA251D", "#DA251D"] }, icon: { type: "image", data: "https://storage.googleapis.com/locket-public/journal_calendar_assets/holiday_indicators/valentines_indicator%403x.png", source: "url" }, max_lines: 1, text: "Tôi yêu Việt Nam", text_color: "#FFFF00", type: "static_content" } },
                 ]
