@@ -24,7 +24,7 @@ var nngoc = {
       refunded_at: null,
       unsubscribe_detected_at: null,
       original_purchase_date: "2008-10-07T10:10:15Z",
-      purchase_date: "2008-12-25T10:10:14Z",
+      purchase_date: "2008-10-07T10:10:14Z",
       store: "app_store",
       store_transaction_id: "2000001108724193",
   },
