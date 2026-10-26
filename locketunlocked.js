@@ -393,7 +393,6 @@ if (ua.includes("Locket")) {
             {
                 section: "🎨 Decorative by nngoc",
                 items: [
-                    { overlay_id: "caption:nngoc", source: "remote", caption: { background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] }, icon: { data: "person.fill", type: "sf_symbol", color: "#183153" }, max_lines: 1, text: "chán chả buồn nói", text_color: "#183153", type: "static_content" } },
                     { overlay_id: "caption:toi_nho_em", source: "remote", caption: { background: { colors: ["#FFFFFF", "#6D9EEB"] }, max_lines: 1, text: "tran duc bao", text_color: "#000000E6", type: "static_content" } },
                     { overlay_id: "caption:cu", source: "remote", caption: { background: { colors: ["#FFD6A5", "#FFF1A8", "#FFC4D6"] }, max_lines: 1, text: "miss km vai cho", text_color: "#633B24", type: "static_content" } },
                     { overlay_id: "caption:tuat", source: "remote", caption: { background: { colors: ["#2C1A0E", "#5D4037", "#D7A86E"] }, icon: { data: "🐀", type: "emoji" }, max_lines: 1, text: "25 12 2008", text_color: "#FFFFFFE6", type: "static_content" } },
