@@ -3,11 +3,11 @@ const mapping = {
   'Locket': ['Gold']
 };
 // =========   Phần cố định  ========= // 
-// =========  emmit ========= // 
+// =========  nngoc ========= // 
 var ua = $request.headers["User-Agent"] || $request.headers["user-agent"],
   obj = JSON.parse($response.body);
 obj.Attention = "Chúc mừng bạn! Vui lòng không bán hoặc chia sẻ cho người khác!";
-var emmit = {
+var nngoc = {
       auto_resume_date: null,
       display_name: "locket_1600_1y",
       is_sandbox: true,
@@ -23,22 +23,22 @@ var emmit = {
       grace_period_expires_date: null,
       refunded_at: null,
       unsubscribe_detected_at: null,
-      original_purchase_date: "2008-12-25T10:10:15Z",
+      original_purchase_date: "2008-10-07T10:10:15Z",
       purchase_date: "2008-12-25T10:10:14Z",
       store: "app_store",
       store_transaction_id: "2000001108724193",
   },
   locketGold = {
       grace_period_expires_date: null,
-      purchase_date: "2005-01-09T10:10:14Z",
+      purchase_date: "2008-10-07T10:10:14Z",
       product_identifier: "locket_1600_1y",
       expires_date: "9999-01-09T10:10:14Z"
   };
 const match = Object.keys(mapping).find(e => ua.includes(e));
 if (match) {
   let [e, s] = mapping[match];
-  s ? (locketGold.product_identifier = s, obj.subscriber.subscriptions[s] = emmit) : obj.subscriber.subscriptions["locket_1600_1y"] = emmit, obj.subscriber.entitlements[e] = locketGold
-} else obj.subscriber.subscriptions["locket_1600_1y"] = emmit, obj.subscriber.entitlements.pro = locketGold;
+  s ? (locketGold.product_identifier = s, obj.subscriber.subscriptions[s] = nngoc) : obj.subscriber.subscriptions["locket_1600_1y"] = nngoc, obj.subscriber.entitlements[e] = locketGold
+} else obj.subscriber.subscriptions["locket_1600_1y"] = nngoc, obj.subscriber.entitlements.pro = locketGold;
 $done({
   body: JSON.stringify(obj)
 });
