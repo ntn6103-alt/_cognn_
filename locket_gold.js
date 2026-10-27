@@ -19,7 +19,7 @@ var nngoc = {
           "amount": 399000.0,
           "currency": "VND"
       },
-      expires_date: "9999-01-09T10:10:14Z",
+      expires_date: "9999-10-07T10:10:14Z",
       grace_period_expires_date: null,
       refunded_at: null,
       unsubscribe_detected_at: null,
@@ -32,7 +32,7 @@ var nngoc = {
       grace_period_expires_date: null,
       purchase_date: "2008-10-07T10:10:14Z",
       product_identifier: "locket_1600_1y",
-      expires_date: "9999-01-09T10:10:14Z"
+      expires_date: "9999-10-07T10:10:14Z"
   };
 const match = Object.keys(mapping).find(e => ua.includes(e));
 if (match) {
